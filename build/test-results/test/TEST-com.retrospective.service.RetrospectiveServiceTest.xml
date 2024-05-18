@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.retrospective.service.RetrospectiveServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-05-18T20:19:43" hostname="Premnazeers-MBP.lan" time="0.765">
+  <properties/>
+  <testcase name="validFeedbackRequest()" classname="com.retrospective.service.RetrospectiveServiceTest" time="0.742"/>
+  <testcase name="validRetroRequest()" classname="com.retrospective.service.RetrospectiveServiceTest" time="0.002"/>
+  <testcase name="invalidRetroRequestWithoutSummary()" classname="com.retrospective.service.RetrospectiveServiceTest" time="0.004"/>
+  <testcase name="invalidRetroRequestWithoutDate()" classname="com.retrospective.service.RetrospectiveServiceTest" time="0.003"/>
+  <testcase name="invalidRetroRequestWithoutName()" classname="com.retrospective.service.RetrospectiveServiceTest" time="0.003"/>
+  <testcase name="invalidRetroRequestWithoutParticipants()" classname="com.retrospective.service.RetrospectiveServiceTest" time="0.003"/>
+  <system-out><![CDATA[21:19:44.063 [Test worker] INFO com.retrospective.service.RetrospectiveService -- The retro exist with retro date:2024-05-20
+21:19:44.080 [Test worker] INFO com.retrospective.service.RetrospectiveService -- The retro exist with retro Id:Retro1-2024-05-20
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
